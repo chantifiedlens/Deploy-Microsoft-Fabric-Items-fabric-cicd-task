@@ -32,8 +32,8 @@ The extension leverages the [fabric-cicd](https://microsoft.github.io/fabric-cic
 
 ### Prerequisites
 
-- Python 3.9 or higher (up to Python 3.13) installed on your pipeline agent.
-- Python 3.9 or higher (up to Python 3.13) specified in your pipeline with the "Use Python version" task.
+- Python 3.9 or higher (up to Python 3.14) installed on your pipeline agent.
+- Python 3.9 or higher (up to Python 3.14) specified in your pipeline with the "Use Python version" task.
 - Azure Service Principal with appropriate permissions to your Microsoft Fabric workspace
 - Microsoft Fabric workspace items stored in your repository (typically in a `./workspace` directory)
 

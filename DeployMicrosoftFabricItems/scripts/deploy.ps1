@@ -156,8 +156,8 @@ try {
     Log "INFO" "Detected $ver"
     if ($ver -match "Python (\d+)\.(\d+)\.(\d+)") {
         $maj = [int]$matches[1]; $min = [int]$matches[2]
-        if ($maj -ne 3 -or $min -lt 9 -or $min -ge 13) {
-            FailTask "Python must be >=3.9 and <3.13. Found $ver"
+        if ($maj -ne 3 -or $min -lt 9 -or $min -ge 15) {
+            FailTask "Python must be >=3.9 and <3.15. Found $ver"
         }
     }
 
